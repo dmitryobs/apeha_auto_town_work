@@ -29,8 +29,8 @@ def start_town_work(config, logger, driver):
             go_to_square(config, logger, driver)
             time.sleep(32 * 60)
         else:
-            go_back_to_edge(config,logger,driver)
-            go_to_town(config,logger,driver)
+            go_back_to_edge(config, logger, driver)
+            go_to_town(config, logger, driver)
             go_to_square(config, logger, driver)
 
 
